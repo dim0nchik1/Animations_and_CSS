@@ -11,9 +11,9 @@ export default [
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
   {settings:{react: {version: "999.999.999"}}},
-  {ignores:["src/e2e/",".eslintrc.js","webpack.prod.js","webpack.common.js","webpack.dev.js"
+  {ignores:["src/e2e/",".eslintrc.js","webpack.prod.js","webpack.common.js","webpack.dev.js",
     ]},
-  {files: ['**/**.test.js'],
+  {files: ['**/*.test.js'],
     ...jest.configs['flat/recommended'],
     rules: {
       ...jest.configs['flat/recommended'].rules,
