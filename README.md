@@ -1,4 +1,5 @@
 # Домашнее задание к занятию "9. Анимации и CSS"
+![CI](https://github.com/dim0nchik1/Animations_and_CSS/actions/workflows/web.yml/badge.svg)
 
 Правила сдачи задания:
 
